@@ -1,0 +1,17 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,./nslim/fitSharp.dll %p}
+!define TEST_RUNNER {./runner.sh}
+ 
+!path ../FitnesseTests/bin/Debug/FitnesseTests.dll
+
+|import|
+|slim_example|
+
+!|Create Shows|5/6/2009 |
+|Name |Episode |Channel|Start Time|Duration|Id? |
+|House |Wilson Gets Mad |8 |19:00 |60 | House:8|
+|Chuck |He Gets Kung Fu Power |9 |19:00 |60 | Chuck:9|
+|Dr. Phil |Episode #405:Teens in Trouble|3 |16:00 |60 | Dr. Phil:3|
+|Dr. Who |Yet another doctor |12 |20:00 |30 |$lastProgram=|

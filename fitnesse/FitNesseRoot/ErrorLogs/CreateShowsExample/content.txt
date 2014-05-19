@@ -1,0 +1,15 @@
+
+!3 !-slim:./runner.sh-!
+|'''Date: '''| 5:38:36 PM (NDT) on Monday, May 19, 2014 |
+|'''Test Page: '''|.CreateShowsExample|
+|'''Command: '''| !-./runner.sh -r fitSharp.Slim.Service.Runner,./nslim/fitSharp.dll ../FitnesseTests/bin/Debug/FitnesseTests.dll  8086-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.697 seconds |
+
+----
+'''Standard Output:'''
+{{{Hi
+Hi
+Hi
+Hi
+}}}
