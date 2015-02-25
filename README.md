@@ -3,7 +3,7 @@ FitnesseMono
 
 Example of using fitnesse with mono.
 
-See https://www.majorsilence.com/fitnesse_and_mono for a tutorial explaining this project.
+See http://www.majorsilence.com/fitnesse_and_mono for a tutorial explaining this project.
 
 Tested with
 * [fitsharp 2.2 for .net 4.0](https://github.com/jediwhale/fitsharp/downloads)
